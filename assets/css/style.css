@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#m4-container{
+    width: 900px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 10% 0 0 20%;
+    position: relative;
+}
+
+#lower-receiver{
+    background-color: rgb(26, 26, 26);
+    width: 350px;
+    height: 125px;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    border-radius: 0 12px 0 0;
+}
+
+#trigger-guard1{
+    background-color: rgb(26, 26, 26);
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    top: 111.5px;
+    left: 152px;
+    rotate: -10deg;
+}
+
+#trigger-guard2{
+    background-color: rgb(26, 26, 26);
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    top: 112px;
+    left: 80px;
+    rotate: 10deg;
+
+}
+
+#trigger-well{
+    width: 85px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 75px;
+    left: 120px;
+}
+
+#trigger-well2{
+    background-color: white;
+    width: 55px;
+    height: 20px;
+    position: absolute;
+    border-radius: 90%;
+    left: 136px;
+    top: 110px
+}
+
+#trigger-extra{
+    background-color: rgb(26, 26, 26);
+    height: 55px;
+    width: 10px;
+    position: absolute;
+    left: 95px;
+    top: 72px;
+    z-index: 1;
+}
+
+#grip{
+    height: 150px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 100px;
+    left: -4px;
+    rotate: 25deg;
+    border-radius: 0 0 12px 6px;
+}
+
+#grip2{
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 75px;
+    left: 30px;
+}
+
+#white1{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 112px;
+    left: 230px;
+    rotate: -10deg;
+}
+
+#white2{
+    background-color: white;
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    border-radius: 20px;
+    left: 340px;
+    top: 20px
+}
+
+#white3{
+    height: 120px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    top: 126px;
+    left: 69px;
+    rotate: 25deg;
+    border-radius: 0 0 0 12px;
+}
+
+#white4{
+    height: 100px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    rotate: 26deg;
+    border-radius: 40px;
+    top: 58px;
+    left: -40px
+}
+
+#front-pin{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    left: 330px;
+    top: 0px;
+    border-radius: 100%;
+    box-shadow: rgb(63, 63, 63) 5px 0 10px 0 inset, rgb(63, 63, 63) -5px 0 10px 0 inset;
+}
+
+#hump1{
+    background-color: rgb(26, 26, 26);
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    border-radius: 20px 0 0 20px;
+    box-shadow: rgb(46, 46, 46) 10px 0 10px 0 inset;
+    left: 185px;
+    top: 2.5px;
+    z-index: 1;
+}
+
+#hump2{
+    background-color: rgb(26, 26, 26);
+    height: 80px;
+    width: 20px;
+    box-shadow: rgb(46, 46, 46) 0 -10px 10px 0 inset;
+    position: absolute;
+    left: 215px;
+    top: 22.5px;
+    z-index: 0;
+    border-radius: 0 0 12px 12px;
+}
+
+#hump3{
+    width: 30px;
+    height: 15px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: rgb(46, 46, 46) 5px 0 10px 0 inset;
+    position: absolute;
+    top: 56px;
+    left: 185px;
+    border-radius: 12px 0 0 12px;
+}
+
+#hump-cover{
+    background-color: rgb(29, 29, 29);
+    width: 12px;
+    height: 25px;
+    position: absolute;
+    left: 219px;
+    top: 15px;
+    border-radius: 12px;
+    z-index: 3;
+}
+
+#hump-cover2{
+    width: 15px;
+    height: 7px;
+    background-color: rgb(31, 31, 31);
+    position: absolute;
+    left: 210px;
+    top: 60px;
+    z-index: 1;
+    border-radius: 12px;;
+}
+
+#mag-release{
+    width: 15px;
+    height: 25px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    position: absolute;
+    left: 194px;
+    top: 27px;
+}
+
+#mag-screw{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 10px;
+    position: absolute;
+    top: 9px;
+    left: 3.5px;
+}
+
+#back-body{
+    background-color: rgb(26, 26, 26);
+    width: 175px;
+    height: 70px;
+    position: absolute;
+    top: -70px;
+}
+
+#over-port{
+    width: 180px;
+    height: 25px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    top: -70px;
+    left: 170px;
+    z-index: -2;
+}
+
+#right-port{
+    height: 80px;
+    width: 25px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    left: 325px;
+    top: -70px;
+    z-index: -1;
+}
+
+#port-cover{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(10, 10, 10);
+    position: absolute;
+    left: 165px;
+    top: -10px;
+    border-radius: 20px 20px 0 0;
+    rotate: 180deg;
+    z-index: 3;
+}
+
+#port-cover2{
+    width: 60px;
+    height: 35px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 12px 12px 0 0;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    box-shadow: rgb(26, 26, 26) 0px 3px 5px 0 inset;
+}
+
+#port-cover3{
+    width: 60px;
+    height: 35px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 12px 12px 0 0;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+    box-shadow: rgb(26, 26, 26) 0px 3px 5px 0 inset;
+}
+
+#port-cover4{
+   height: 30px;
+   width: 25px;
+   background-color: rgb(3, 3, 3); 
+    position: absolute;
+    left: 73px;
+    top: 13px;
+    box-shadow: rgb(36, 36, 36) 0px -5px 10px 0 inset;
+    border-radius: 0 0 5px 5px;
+}
+
+#port-cover5{
+    width: 180px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 45px;
+    left: -5px;
+    border-radius: 10px;
+}
+
+#port-corner-right{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-right: 15px solid rgb(26, 26, 26);
+    border-radius: 100%;
+    position: absolute;
+    left: 284px;
+    top: -50px;
+    rotate: -45deg;
+    z-index: -2;
+}
+
+#port-corner-left{
+    background-color: transparent;
+    width: 40px;
+    height: 40px; 
+    border-right: 15px solid rgb(26, 26, 26);
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+    left: 162px;
+    rotate: -135deg;
+    z-index: -2;
+}
+
+#pyramid-thing{
+    border-right: 30px solid rgb(26, 26, 26);
+    border-left: 10px solid rgb(26, 26, 26);
+    border-top: 15px solid rgb(53, 53, 53);;
+    border-bottom: 15px solid rgb(36, 36, 36);
+    position: absolute;
+    border-radius: 6px;
+    height: 20px;
+    top: -63px;
+    left: 135px;
+    box-shadow: rgb(41, 41, 41) -5px 0 5px 0px;
+    z-index: 3;
+}
+
+#bolt-bulge{
+    height: 50px;
+    width: 175px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    top: -45px;
+    left: 0px;
+    box-shadow:rgb(56, 56, 56) 0px 5px 10px 0 inset, rgb(56, 56, 56) 0px -5px 10px 0 inset, rgb(26, 26, 26) 5px 0 5px 0 inset;
+}
+
+#barrel{
+    height: 35px;
+    width: 600px;
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    left: 600px;
+    top: 110px
+}
+
+#barrel-connect{
+    height: 70px;
+    width: 50px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    top: -18px;
+    left: -25px;
+}
+
+#barrel-lump{
+    height: 45px;
+    width: 150px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    top: -5px;
+    left: 350px;
+    border-radius: 5px;
+}
+
+#flash-hider{
+    height: 45px;
+    width: 120px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    left: 600px;
+    top: -5px;
+    border-radius: 5px 0 0 5px;
+}
+
+#flash-port1{
+    width: 60px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 45px;
+    top: 7px;
+    border-radius: 40%;
+}
+
+#flash-port2{
+    width: 60px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 45px;
+    top: 28px;
+    border-radius: 40%; 
+}
+
+#flash-divot1{
+    width: 5px;
+    height: 45px;
+    background-color: black;
+    position: absolute;
+    left: 25px;
+    box-shadow: rgb(83, 83, 83) 1px 0 5px 0 inset;
+}
+#flash-divot2{
+    width: 5px;
+    height: 45px;
+    background-color: black;
+    position: absolute;
+    left: 15px;
+    box-shadow: rgb(83, 83, 83) 1px 0 5px 0 inset;
+}
+
+#stock-connect{
+    height: 85px;
+    width: 25px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 0 10px 10px 0;
+    top: -55px;
+    z-index: 1;
+    box-shadow: rgb(46, 46, 46) 0px 8px 8px 0 inset, rgb(46, 46, 46) 0px -5px 5px 0 inset;
+}
+
+#connect-extra1{
+   background-color: rgb(65, 65, 65);
+   width: 10px;
+   height: 60px;
+   position: absolute;
+   left: 25px;
+   top: 5px;
+   border-radius: 0 10px 10px 0;
+   box-shadow: rgb(20, 20, 20) 5px 0 5px 0 inset;
+
+}
