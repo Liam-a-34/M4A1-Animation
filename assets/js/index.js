@@ -1,6 +1,7 @@
 const gunshot = $("#gunshot");
 
 let intervalID = null;
+gunshot.prop("volume", 0.5)
 
 function fire1(){
     gunshot[0].currentTime = 0;
