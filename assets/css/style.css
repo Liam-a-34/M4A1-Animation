@@ -365,16 +365,18 @@
     background-image: linear-gradient(to top, #1a1a1a, #212121, #282828, #2f2f2f, #373737, #373737, #373737, #373737, #2f2f2f, #282828, #212121, #1a1a1a);
     position: absolute;
     left: 600px;
-    top: 110px
+    top: 110px;
+    z-index: -2;
 }
 
 #barrel-connect{
     height: 70px;
     width: 50px;
-    background-color: rgb(26, 26, 26);
+    background-image: linear-gradient(to top, #1a1a1a, #222222, #2a2a2a, #333333, #3c3c3c, #3c3c3c, #3c3c3c, #3c3c3c, #333333, #2a2a2a, #222222, #1a1a1a);
     position: absolute;
     top: -18px;
     left: -25px;
+    z-index: -1;
 }
 
 #barrel-lump{
@@ -476,9 +478,368 @@
     background-color: rgb(26, 26, 26);
     position: absolute;
     left: -40px;
-    top: -50px
+    top: -52px;
+    border-radius: 5px 0 0 5px;
 }
 
 #ring-divot1{
     background-color: transparent;
+    border-top: 5px solid rgb(12, 12, 12);
+    border-bottom: 5px solid rgb(68, 68, 68);
+    border-left: 5px solid rgb(26, 26, 26) ;
+    width: 10px;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    top: 10px
+}
+
+#ring-divot2{
+    background-color: transparent;
+    border-top: 5px solid rgb(12, 12, 12);
+    border-bottom: 5px solid rgb(68, 68, 68);
+    border-left: 5px solid rgb(26, 26, 26) ;
+    width: 10px;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    top: 60px
+}
+
+#buffer-tube{
+    height: 70px;
+    width: 400px;
+    /* background-color: #202020; */
+    background-image: linear-gradient(to top, #1a1a1a, #212121, #282828, #2f2f2f, #373737, #373737, #373737, #373737, #2f2f2f, #282828, #212121, #1a1a1a);
+    position: absolute;
+    left: -430px;
+    top: -46.5px
+}
+
+#buffer-trap{
+    border-top: 30px solid #202020;
+    border-right: 25px solid transparent;
+    border-bottom: none;
+    width: 200px;
+    position: absolute;
+    left: -320px;
+    top: 20px
+}
+
+#stock-main{
+    width: 380px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    left: -520px;
+    top: -63px;
+    box-shadow: #343434 0px 30px 30px 0 inset, #414040 20px -5px 20px 0 inset; 
+    border-radius: 10px 20px 0 70px;
+}
+
+#stock-cover1{
+    width: 70px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 135px;
+    left: 315px;
+}
+
+#stock-cover2{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 185px;
+    left: 155px
+}
+
+#stock-cover3{
+    width: 200px; 
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    rotate: -40deg;
+    top: 232px;
+    left: 26px
+}
+
+#stock-cover4{
+    height: 400px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    rotate: -5deg;
+    left: -80px;
+}
+
+#stock-cover5{
+    width: 400px;
+    border-top: 25px solid white;
+    border-left: 80px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: -35px
+}
+
+#stock-cover6{
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    border-radius: 20px;
+}
+
+#stock-lever1{
+    height: 50px;
+    width: 130px;
+    background-color: #0f0f0f;
+    position: absolute;
+    left: 185px;
+    top: 150px;
+    border-radius: 0 20px 0 0;
+}
+
+#stock-lever2{
+    height: 50px;
+    width: 110px;
+    background-color: #0f0f0f;
+    position: absolute;
+    left: -88px;
+    transform: skew(-20deg);
+    rotate: -40deg;
+    top: 35px;
+    border-radius: 5px 0 0 5px;
+}
+
+#lever-bolt{
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+    border-radius: 0 0 5px 5px;
+}
+
+#stock-dimple-cont{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 20px;
+    top: 65px;
+    width: 340px;
+    justify-content: space-evenly;
+    height: 60px
+}
+
+#stock-dimple-cont div{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.76) 0 5px 5px 0 inset;
+}
+
+#stock-dimple1{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple2{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;  
+}
+#stock-dimple3{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f; 
+}
+#stock-dimple4{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f; 
+}
+#stock-dimple5{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple6{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f; 
+}
+#stock-dimple7{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f; 
+}
+#stock-dimple8{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple9{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple10{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple11{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple12{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple13{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple14{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+#stock-dimple15{
+    height: 15px;
+    width: 60px;
+    background-color: #0f0f0f;
+}
+
+#stock-cover9{
+    border-top: 75px solid rgb(5, 5, 5);
+    border-right: 80px solid transparent;
+    position: absolute;
+    left: 40px;
+    top: 190px;
+}
+
+#handguard{
+    height: 150px;
+    width: 400px;
+    background-image: linear-gradient(to bottom, #000000, #090909, #111111, #161616, #1b1b1b, #1b1b1b, #1b1b1b, #1b1b1b, #161616, #111111, #090909, #000000);
+    position: absolute;
+    left: 375px;
+    top: -90px;
+    border-radius: 20px 20% 20% 20px;
+}
+
+#handguard-cover1{
+    width: 400;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    bottom: 45px;
+    rotate: 1deg;
+}
+
+#handguard-cover2{
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    rotate: -1deg;
+    z-index: 2;
+}
+
+#rib-cont{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 400px;
+    justify-content: space-evenly;
+    top: 00px
+}
+
+#rib-cont div{
+    width: 10px;
+    height: 150px;
+    background-image: linear-gradient(to right, #000000, #0b0b0b, #141414, #1a1a1a, #202020, #202020, #202020, #202020, #1a1a1a, #141414, #0b0b0b, #000000);
+
+}
+
+#main-rib{
+    height: 20px;
+    background-image: linear-gradient(to top, #000000, #0b0b0b, #141414, #1a1a1a, #202020, #202020, #202020, #202020, #1a1a1a, #141414, #0b0b0b, #000000);
+    width: 400px;
+    position: absolute;
+    top: 59px;
+}
+
+#front-sight-cont{
+    background-color: rgb(26, 26, 26);
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    left: 780px;
+    top: -130px;
+    border-radius: 0 20px 10px 10px;
+}
+
+#front-sight-cover1{
+    border-top: 100px solid white;
+    border-right: 120px solid transparent;
+    position: absolute;
+    left: 0px;
+    top: -20px;
+}
+
+#front-sight-cover2{
+    width: 75px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    border-radius: 20px 0 10px 20px;
+}
+
+#front-sight-cover3{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    position: absolute;
+    left: 75px;
+    top: 25px;
+    border-radius: 10px 10px 0 0;
+}
+
+#front-sight-cover4{
+    border-bottom: 40px solid white;
+    border-left: 40px solid transparent;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    rotate: 2deg;
+}
+
+#front-sight-cover5{
+    width: 85px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+#front-sight-cover6{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 145px;
+    left: 6px;
 }
